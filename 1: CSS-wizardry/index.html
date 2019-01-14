@@ -1,0 +1,31 @@
+<style>
+    .button {
+        background-color: #ee953f;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 10px;
+        font-weight: 900;
+        font-size: 18px;
+        border: 2px solid #888;
+        cursor: pointer;
+    }
+
+    .button:after {
+        content: '\00d7';
+        display: flex;
+        margin-left: 10px;
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 100%;
+        font-weight: normal;
+        font-size: 40px;
+        width: 40px;
+        height: 40px;
+        align-items: flex-end;
+        justify-content: center;
+    }
+</style>
+
+<button class="button" type="button">Delete</button>

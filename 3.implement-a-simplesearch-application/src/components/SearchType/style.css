@@ -1,0 +1,15 @@
+.search-type__button {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 14px;
+    border: 1px solid #888;
+    margin: 0 10px;
+}
+
+.search-type__button--active {
+    background-color: #c5c5c5;
+}
+
+.search-type__button::first-letter {
+    text-transform: uppercase;
+}
